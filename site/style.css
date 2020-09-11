@@ -1,3 +1,32 @@
-body {
-    font-size: 15pt;
+#top_bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #373737;
+  height: 1.8rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#top_bar_left{
+  font-family: sans-serif;
+  font-size: 19px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 6px;
+}
+
+#icon_bar{
+  border-radius: 4px;
+  border: solid 1px #FFFFFF;
+}
+
+.icn{
+  width: 1rem;
+  height: 1rem;
+  padding: 3px;
+  fill: #FFFFFF;
 }
